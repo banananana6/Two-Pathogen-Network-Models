@@ -1,6 +1,6 @@
 % ws network -- superinfect
 
-output_folder = "C:\Users\xiaoy\Work\primes\point_source\superinfect\graphs_layer";
+output_folder = ""; % fill in folder
 if ~exist(output_folder, 'dir')
     mkdir(output_folder);
 end
@@ -148,4 +148,5 @@ for idx = 1:length(s)
 end
 
 h = graph(s, t);
+
 end
