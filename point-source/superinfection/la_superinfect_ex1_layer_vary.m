@@ -1,6 +1,6 @@
 % lattice network -- superinfect
 
-output_folder = "C:\Users\xiaoy\Work\primes\point_source\superinfect\graphs_layer";
+output_folder = ""; % fill in folder
 if ~exist(output_folder, 'dir')
     mkdir(output_folder);
 end
@@ -147,4 +147,5 @@ function A = generate_LA2D(rows, cols, range)
         neighbors = sort(neighbors);
         A(idx, neighbors) = 1;
     end
+
 end
