@@ -1,4 +1,4 @@
-output_folder = "C:\Users\xiaoy\Work\primes\point_source\superinfect\graphs_raw";
+output_folder = ""; % fill in folder
 if ~exist(output_folder, 'dir')
     mkdir(output_folder);
 end
@@ -136,4 +136,5 @@ function A = generate_LA2D(rows, cols, range)
             end
         end
     end
+
 end
