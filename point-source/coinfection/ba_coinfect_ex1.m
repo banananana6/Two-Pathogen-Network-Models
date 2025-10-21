@@ -1,6 +1,6 @@
 % ws network -- superinfect
 
-output_folder = "C:\Users\xiaoy\Work\primes\point_source\superinfect\graphs_layer";
+output_folder = ""; % fill in folder
 if ~exist(output_folder, 'dir')
     mkdir(output_folder);
 end
@@ -196,4 +196,5 @@ function G = ba_network(N, m0, m)
     end
 
     G = graph(A);
+
 end
